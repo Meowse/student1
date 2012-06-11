@@ -7,6 +7,8 @@ namespace Ex1_Console
         static void Main()
         {
             Console.Out.WriteLine("Hello World!");
+            Console.Out.WriteLine("Press any key to exit.");
+            Console.ReadKey();
         }
     }
 }
