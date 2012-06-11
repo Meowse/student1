@@ -6,14 +6,8 @@ namespace Ex1_Console
     {
         static void Main(string[] args)
         {
-            if (args.Length == 0)
-            {
-                Console.Out.WriteLine("Hello, World!");
-            }
-            else
-            {
-                Console.Out.WriteLine("Hello, " + args[0] + "!");
-            }
+            string name = (args.Length == 0) ? "World" : args[0];
+            Console.Out.WriteLine("Hello, " + name + "!");
             Console.Out.WriteLine("Press any key to exit.");
             Console.ReadKey();
         }
